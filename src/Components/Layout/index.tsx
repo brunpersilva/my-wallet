@@ -9,9 +9,9 @@ import Content from '../Context'
 const Layout: React.FC = () =>{
     return(
         <Container>
-        <MainHeader/>
-        <Aside/>
-        <Content/>  
+            <MainHeader/>
+            <Aside/>
+            <Content/>  
         </Container>
     );
 }
