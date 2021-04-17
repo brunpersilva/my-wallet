@@ -2,11 +2,11 @@ import React from 'react';
 
 import{Container} from './style'
 
-const Context: React.FC = () =>{
+const Context: React.FC = ({children}) =>{
     return(
         <Container>
-        <h1>Context</h1>    
-        </Container>
+           {children}   
+        </Container>        
     );
 }
 
