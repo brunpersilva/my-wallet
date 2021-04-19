@@ -8,7 +8,7 @@ export const Container = styled.div`
     border-right: 1px solid ${props => props.theme.colors.gray};
 `;
 
-export const Header = styled.head`
+export const Header = styled.header`
 
     height: 70px;
     display: flex;

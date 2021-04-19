@@ -1,4 +1,3 @@
-import react from 'react';
 import {Container, TitleContainer, Controllers} from './styles';
 
 
@@ -10,16 +9,10 @@ interface IContentHeaderProps {
 };
 
 const ContentHeader: React.FC<IContentHeaderProps> = ({
-    title, lineColor, children}) => {
-
-        const options=[
-            
-        ]
-    
-
+    title, lineColor, children}) => {  
     return(        
-           <Container>
-                <TitleContainer>                    
+           <Container >
+                <TitleContainer lineColor={lineColor}>                    
                    <h1>{title}</h1>
                 </TitleContainer>
                 <Controllers>   
